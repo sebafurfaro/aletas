@@ -9,18 +9,15 @@
     <meta name="description" content="Desarrollo para Val-Media eventos" />
     <meta name="keywords" content="eventos, pantallas led, televisores, consolas de juego, consolas de sonido, djs profesionales, acreditaciones, proyectores, pantallas, notebooks, iphones" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css">
     <link href="css/plugins.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 
     <link rel="shortcut icon" href="img/favicon.jpg" />
     <link rel="apple-touch-icon" href="img/favicon.jpg" />
   </head>
-  <body data-barba="wrapper" data-cursor="true" data-header-sticky="true" data-menu-style="classic" data-page-layout="dark" data-header-layout="light"
-    data-menu-layout="dark" data-footer-layout="dark" data-page-loader="true">
+  <body data-barba="wrapper" data-cursor="true" data-header-sticky="true" data-menu-style="classic" data-page-layout="dark" data-header-layout="light" data-menu-layout="dark" data-footer-layout="dark" data-page-loader="true">
     <div data-duration="5" class="alioth-page-loader" data-layout="dark">
       <span class="apl-background"></span>
       <div class="apl-count"></div>
@@ -39,7 +36,7 @@
         <div class="site-branding">
           <div class="site-logo">
             <a href="/">
-              <div class="light-logo valmedia-brand">Val<span>-</span>Media</div>
+              <img src="img/logo_valmedia_large.png" alt="Val-Media Eventos Logo" class="light-logo">
             </a>
           </div>
         </div>
@@ -51,12 +48,12 @@
 
         <div class="site-navigation">
           <ul class="menu main-menu">
-            <li class="menu-item"><a href="clientes.html">Clientes</a></li>
+            <li class="menu-item"><a href="#clientes">Clientes</a></li>
 
           </ul>
           <div class="menu-widget menu-widget-left">
             <ul class="social-list">
-              <li><a target="_blank" href="https://www.instagram.com/valmedia_eventos/">Instagram</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/aletasiounis/">Instagram</a></li>
               <li><a target="_blank" href="https://www.facebook.com/Val-Media-195368233829201/">Facebook</a></li>
               <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=5491133853963&text=Hola%2C+en+qu%C3%A8+podemos+ayudarte%3F&type=phone_number&app_absent=0">whatsapp</a></li>
             </ul>
@@ -90,114 +87,453 @@
     <main id="mainContent">
       <div id="page" data-barba="container">
         <div id="content" class="page-content">
-          <div class="section fullscreen">
+          <div class="section">
             <div class="wrapper-full no-gap">
               <div class="c-col-12 no-gap">
                 <div
-                  class="portfolio-showcase fullscreen-wall-showcase"
-                  data-barba-namespace="fs-wall"
-                >
-                  <div class="fw-projects">
-                    <div
-                      data-image-url="img/projects/project-1.avif"
-                      class="fw-project fw-project-console"
-                    >
-                      <a href="project-1.html">
-                        <div class="fw-project-title">Consolas</div>
-  
-                      </a>
+                class="portfolio-showcase showcase-list"
+                data-barba-namespace="sc-list"
+              >
+                <div class="showcase-list-wrapper">
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Shows</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Armado de shows y escenarios</div>
+                      </div>
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-2.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-2.html">
-                        <div class="fw-project-title">DJs Profesionales</div>
-  
-                        <div class="fw-project-category">Branding</div>
-                      </a>
+
+                    <div class="sl-project-image">
+                      <!--
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-1.jpg"
+                      />
+                      -->
+                      <video src="img/projects/project-video.webm" autoplay muted loop></video>
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-3.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-3.html">
-                        <div class="fw-project-title">Pantallas y Proyectores</div>
-  
-                        <div class="fw-project-category">Photography</div>
-                      </a>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Recitales</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">y bandas en vivo</div>
+
+                      </div>
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-4.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-4.html">
-                        <div class="fw-project-title">Notebooks</div>
-  
-                        <div class="fw-project-category">Production</div>
-                      </a>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-2.jpg"
+                      />
                     </div>
-  
-                    <div
-                      data-plyr-provider="vimeo"
-                      data-plyr-embed-id="585710940"
-                      class="fw-project"
-                    >
-                      <a href="project-8.html">
-                        <div class="fw-project-title">Eventos</div>
-  
-                        <div class="fw-project-category">Production</div>
-                      </a>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Catering</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Barra de tragos</div>
+                      </div>
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-6.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-5.html">
-                        <div class="fw-project-title">iPhones</div>
-  
-                        <div class="fw-project-category">Photography</div>
-                      </a>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-3.jpg"
+                      />
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-7.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-6.html">
-                        <div class="fw-project-title">Acreditaciones</div>
-  
-                        <div class="fw-project-category">Photography</div>
-                      </a>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Artistas</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Contratación de artistas, magos y animadores</div>
+                      </div>
                     </div>
-  
-                    <div
-                      data-image-url="img/projects/project-8.avif"
-                      class="fw-project"
-                    >
-                      <a href="project-7.html">
-                        <div class="fw-project-title">Televisores</div>
-  
-                        <div class="fw-project-category">Branding</div>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-4.jpg"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">DJs Profesionales</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat"></div>
+
+                      </div>
+                    </div>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-5.jpg"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Producciones</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Armado de Stands y pantallas</div>
+
+                      </div>
+                    </div>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-6.jpg"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="sl-project">
+                    <div class="sl-project-item">
+                      <div class="sl-project-title">Promociones</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Promotoras para lanzamiento de productos</div>
+
+                      </div>
+                    </div>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-7.jpg"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="sl-project">
+                    <a href="https://val-media.com.ar/" class="sl-project-item">
+                      <div class="sl-project-title">Valmedia - Cumpleaños</div>
+
+                      <div class="sl-project-meta">
+                        <div class="sl-project-cat">Alquiler de Playstation 5, XBOX y Wii</div>
+
+                      </div>
+                    </a>
+
+                    <div class="sl-project-image">
+                      <img
+                        alt="Project Image"
+                        src="img/projects/project-1.jpg"
+                      />
+                    </div>
+                  </div>
+                
+                </div>
+
+                <div class="sl-images"></div>
+
+                <div class="showcase-footer">
+                  <div class="showcase-footer-left">
+                    <div data-target="#secondSec" class="scroll-notice">
+                      <span>SCROLL</span>
+                    </div>
+                  </div>
+
+                  <div class="showcase-footer-right">
+                    <div class="a-plus-button">
+                      <a href="https://api.whatsapp.com/send/?phone=5491133853963&text=Hola%2C+en+qu%C3%A8+podemos+ayudarte%3F&type=phone_number&app_absent=0">
+                        <span><span>CONTACTO</span></span>
                       </a>
                     </div>
                   </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section" id="secondSec" style="background-color: #029be2;">
+            <span class="a-empty-space" style="height: 150px"></span>
+            <div class="wrapper-full">
+              <div class="c-col-12">
+                <div class="scrollable-text scrollable-text-rtl">
+                  <h1 class="big-title" style="color: #ffffff">
+                    Alquiler de pantallas led - Televisores - Djs Profesionales
+                    </h1>
+                </div>
+                <div class="scrollable-text scrollable-text-ltr">
+                  <h1 class="big-title" style="color:#ffffff">Consolas de juego y sonido - Proyectores - Notebooks - iPhones</h1>
+                </div>
+              </div>
+            </div>
+            <span class="a-empty-space" style="height: 50px"></span>
+          </div>
+
+          <div class="section no-margin" id="clientes" style="background-color: rgb(25, 27, 29);">
+            <div class="wrapper-small">
+              <div class="c-col-12">
+                <div class="text-wrapper">
+                  <h1 class="has-anim big-title" data-stagger=".01" data-duration="1" data-delay=".1" data-animation="charsUp">Clientes</h1>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="c-col-12">
+                <div data-anim="true" class="alioth-clients column-5">
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Afa Logo" src="img/client/afa.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Arcos Dorados Logo" src="img/client/arcos-dorados.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Boca Logo" src="img/client/boca.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Dale Play Logo" src="img/client/dale-play.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="DBN Logo" src="img/client/dbn.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="DF Entertainment Logo" src="img/client/df-entertainment.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Direct TV Logo" src="img/client/directtv.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Disney Logo" src="img/client/disney.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Fate Logo" src="img/client/fate.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Fenix Logo" src="img/client/fenix.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Fernet Branca Logo" src="img/client/fernet-branca.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Flow Logo" src="img/client/flow.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Ford Logo" src="img/client/ford.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Galeno Logo" src="img/client/galeno.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Google Logo" src="img/client/google.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Heineken Logo" src="img/client/heineken.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Hilton Logo" src="img/client/hilton.png"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Hotel Madero Logo" src="img/client/hotel-madero.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Lola Logo" src="img/client/lola.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Mercado Libre Logo" src="img/client/mercadolibre.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Movistar Arena Logo" src="img/client/movistar-arena.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="OSDE Logo" src="img/client/osde.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Pampa Films Logo" src="img/client/pampa-films.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Pop Art Logo" src="img/client/pop-art.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Primavera Sound Logo" src="img/client/primavera-sound.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="QR Logo" src="img/client/qr-logo.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="River Logo" src="img/client/river.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Sheraton Logo" src="img/client/sheraton.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Start Plus Logo" src="img/client/starplus.jpg"
+                    /></div>
+                  </div>
+                  <div class="a-client">
+                    <div class="a-client__mask"
+                      ><img alt="Urbana Play Logo" src="img/client/urbana-play.jpg"
+                    /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper-small">
+              <div class="c-col-12">
+                <div class="a-testimonials autoplay light">
+                  <div class="a-testimonals-control">
+                    <span class="a-test-prev"
+                      ><i class="icofont-thin-left"></i
+                    ></span>
+                    <div class="a-test-frac">
+                      <span class="a-test-current">01</span>
+                      <div class="a-testimonials-count"><span></span></div>
+                      <span class="a-test-total"></span>
+                    </div>
+                    <span class="a-test-next"
+                      ><i class="icofont-thin-right"></i
+                    ></span>
+                  </div>
   
-                  <div class="fw-images"></div>
+                  <div class="a-testimonials-wrapper">
+                    <div class="a-testimonial">
+                      <div class="testimonial-text">
+                        “Gracias a la gente de Val-Media por su servicio y dedicación en el evento que realizamos. Alejandro es un excelente profesional y muy buena onda en todo momento.”
+                      </div>
+  
+                      <div class="testimonial-meta">
+                        <div class="testimonial-name">Daniela Fernandez</div>
+  
+                        <div class="testimonial-brand">Pol-Ka</div>
+                      </div>
+                    </div>
+  
+                    <div class="a-testimonial">
+                      <div class="testimonial-text">
+                        “Desde el momento en que nos pusimos en contacto hasta que terminó el evento, Alejandro de Val-Media estuvo siempre predispuesto a todo, anticipando las problemáticas típicas de los eventos y aportando soluciones y recomendaciones. Los productos ofrecidos son de excelente calidad y definición, tal como lo habíamos soñado. Muchas Gracias Ale!!”
+                      </div>
+  
+                      <div class="testimonial-meta">
+                        <div class="testimonial-name">Rosario Aniganello</div>
+  
+                        <div class="testimonial-brand">Ford Argentina</div>
+                      </div>
+                    </div>
+  
+                    <div class="a-testimonial">
+                      <div class="testimonial-text">
+                        “Alejandro es una excelente persona que nos ayudó bastante en el evento aportando su experiencia y conocimiento. No solamente armó los stands sino que además nos aportó promotoras capacitadas y con el conocimiento para poder dar soporte y relevar datos que era lo que necesitábamos! ”
+                      </div>
+  
+                      <div class="testimonial-meta">
+                        <div class="testimonial-name">
+                          Hernán Pérez
+                        </div>
+  
+                        <div class="testimonial-brand">Toyota</div>
+                      </div>
+                    </div>
+  
+                    <div class="a-testimonial">
+                      <div class="testimonial-text">
+                        “Val-Media nos organizó y organiza todos los eventos de la radio. Excelente atención, puntualidad, calidad de los productos y un profesionalismo increíble. Por esto, y mucho más, recomendamos ampliamente sus servicios.”
+                      </div>
+  
+                      <div class="testimonial-meta">
+                        <div class="testimonial-name">
+                          Andrés Pandiella
+                        </div>
+  
+                        <div class="testimonial-brand"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+  
+          <div class="section" id="marquee">
+            <div class="wrapper-full no-margin">
+              <div class="c-col-12 no-gap no-margin">
+                <div class="alioth-page-nav" style="background-color: #101010">
+                  <a href="https://api.whatsapp.com/send/?phone=5491133853963&text=Hola%2C+en+qu%C3%A8+podemos+ayudarte%3F&type=phone_number&app_absent=0">
+                    <div class="page-title">Whatsappeanos!</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>
-
-
-    
 
     <footer id="footer" class="site-footer section">
       <div class="wrapper">
@@ -212,7 +548,7 @@
         <div class="c-col-3 footer-widget">
           <div class="social-list-widget">
             <ul>
-              <li><a target="_blank" href="https://www.instagram.com/valmedia_eventos/">Instagram</a></li>
+              <li><a target="_blank" href="https://www.instagram.com/aletasiounis/">Instagram</a></li>
               <li><a target="_blank" href="https://www.facebook.com/Val-Media-195368233829201/">Facebook</a></li>
             </ul>
           </div>
@@ -237,5 +573,8 @@
     <script src="js/locomotive-scroll.min.js"></script>
     <script src="js/gsap.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+      document.getElementById('copyYear').innerHTML = new Date().getFullYear();
+    </script>
   </body>
 </html>

@@ -2592,14 +2592,32 @@
     });
   }
   function aliothScrollableText() {
-    var scText = $(".scrollable-text");
+    var scText = $(".scrollable-text-rtl");
+    var scTextToRight = $(".scrollable-text-ltr");
     scText.each(function () {
       let $this = $(this);
       gsap.fromTo(
         $this,
-        { x: "60%" },
+        { x: "40%" },
         {
-          x: "-60%",
+          x: "-40%",
+          scrollTrigger: {
+            trigger: $this,
+            scrub: 2,
+            start: "top bottom",
+            end: "bottom top",
+          },
+        }
+      );
+    });
+
+    scTextToRight.each(function () {
+      let $this = $(this);
+      gsap.fromTo(
+        $this,
+        { x: "-40%" },
+        {
+          x: "40%",
           scrollTrigger: {
             trigger: $this,
             scrub: 2,
